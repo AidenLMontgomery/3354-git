@@ -12,6 +12,10 @@ public class Main {
     }
 
     private static int addArguments(String[] args) {
-        return Integer.valueOf(args[0]) + Integer.valueOf(args[1] + Integer.valueOf(args[2] + Integer.valueOf(args[3]);
+        if (args[0]== "-" || args[0]== '-') {
+            return (Integer.valueOf(args[0]) + Integer.valueOf(args[1]) + Integer.valueOf(args[2]) + Integer.valueOf(args[3]));
+        } else {
+             return (0 - Integer.valueOf(args[1]) - Integer.valueOf(args[2]) - Integer.valueOf(args[3]));
+        }
     }
 }
