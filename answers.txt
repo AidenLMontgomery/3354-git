@@ -1,0 +1,6 @@
+a) 5 (i messed up a few times)
+b) the first commit
+c) log shows the history while status shows the current staging area
+d) untracked isn't coming into contact with git, unstaged are changes not flagged to commit
+e) checkout is to switch between branches while reset gets rid of uncommited changes in a branch
+f) it goes smoothly if no conflicts, otherwise you need to resolve them
