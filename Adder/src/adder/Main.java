@@ -7,7 +7,7 @@ public class Main {
             int result = addArguments(args);
             System.out.println(result);
         } catch (Exception e) {
-            System.err.println("Please provide four integers to add");
+            System.err.println("Please provide four integers to add or the minus sign follow by three integers");
         }
     }
 
